@@ -14,8 +14,8 @@ body {
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #0099ff8a;
+    --text-decoration-color: #0099ff8a;
 }
 
 .container {
@@ -92,6 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 .contact-info__block--center {
@@ -148,15 +149,6 @@ body {
     width: 30px;
     display: flex;
     justify-content: center;
-}
-
-.intro__icon {
-    height: 1.1428rem;
-    vertical-align: text-bottom;
-}
-
-.intro__icon path {
-    fill: var(--text-decoration-color);
 }
 
 .intro_text {
